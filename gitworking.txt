@@ -8,3 +8,5 @@ Adding commits keep track of our changes and progress
 Git considers each commit change point or "save point".
 When we commit, we should always include a message.
 By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when
+Git pull is a combination of two commands git fetch and git merge
+it fetches the change history for your remote repo and then merges it with your local repo
