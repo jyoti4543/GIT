@@ -1,0 +1,4 @@
+to push the code to github, username and password auth method does not work now,
+so we need to go to github -- settings -- developer settings -- personal access tokens -- classic token -- generate classic token
+once the token is generated , copy that token and paste the token in place of <token> in below url
+git remote set-url origin https://<token>@github.com/<username>/<repo>
