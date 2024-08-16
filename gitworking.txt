@@ -1,0 +1,10 @@
+when initialised, hidden folders are created in the repo
+these hidden folders keep track of the changes
+you can create files and keep working on them here in the working space or working directory
+git status will show all your files in red color meaning all these files are untracked and they need to be added to the staging area in order to save changes
+so now git is aware of the file created , but has not added it to the staging area
+in order to add to the staging area we need git add command
+Adding commits keep track of our changes and progress
+Git considers each commit change point or "save point".
+When we commit, we should always include a message.
+By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when
