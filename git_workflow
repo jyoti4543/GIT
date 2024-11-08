@@ -1,0 +1,10 @@
+GIT Workflow
+
+create files -- git status -- git add -- git commit -- git log
+
+- Create files . When we create files, those files are not tracked by GIT and are visible in red colour . To make those files trackable we need to add them
+- git status shows the status of the GIT working directory . The files modified or created are in red colour with a message that these files needed to be added to staging area
+- git add command adds the files from the working directory to the staging area . You can modify the file even after adding it to the staging area, this will put the file again in the working directory and we again need to add that file to the staging area.
+- git commit command is always used with -m option to add a commit message and this is used to commit the file to the local repository
+- git log shows the history of commits with commit id , author, date when the commit was performed and the time
+- git log --oneline will show the history of commits in one line with only their ids or hash codes

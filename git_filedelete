@@ -1,0 +1,5 @@
+Deleting files in GIT
+
+- git rm filename can be used to delete files from the working directory as well as the staging area.
+- git rm --cached command is used if you want to delete files only from the staging area.
+- deleted files can be recovered by reverting to the earlier commits where the file was present

@@ -1,0 +1,4 @@
+Ignoring files in GIT
+
+- .gitignore file is used to ignore files in GIT . Create .gitignore file , open it and mention the pattern of file which needs to be ignored
+- for example , mentioning txt* in .gitignore file will ignore all files with txt extension

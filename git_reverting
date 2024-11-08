@@ -1,0 +1,7 @@
+Reverting to earlier commits
+
+- In GIT, you can also revert to earlier commits by using "git checkout commitid" command . This will point to the earlier version which you provided .
+- After the command , use git status -- this will show that the files are in staging area and you need a commit to save the changes
+- commit , this will show a new commit and you will be on the earlier versions
+- There is one more option for reverting
+      git reset --hard commitid

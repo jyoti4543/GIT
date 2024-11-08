@@ -1,0 +1,11 @@
+Tracking changes between the stages
+
+- git diff filename ----> is used to track changes in file between the working directory and the staging area
+
+- git diff --staged -----> is used to track the changes between the staging area and the local repo
+
+- git diff HEAD is similar to the git diff --staged
+
+- the latest commit is represantated by a pointer called HEAD . The last second commit is pointed by HEAD~1 and so on
+
+- when there are multiple commits , we cannot refer by HEAD , so at that time we use hash codes or commit ids

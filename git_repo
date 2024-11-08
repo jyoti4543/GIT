@@ -1,0 +1,10 @@
+Creating a GIT Repository
+
+- GIT is a distributed version control system meaning you can have a local copy of project files to work individually and then push it to the remote repository
+
+- To create a local git repo, we need below steps
+
+1. Create an empty directory
+2. use command "git init" to intialise git -- that creates your git repo . The hidden .git folder will contain all the metadata of GIT and .git is responsible for tracking changes.
+
+- A repository can be a place to store things, a person who contains a lot of information, or a centralized digital storage for developers
